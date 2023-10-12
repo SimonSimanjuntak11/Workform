@@ -1,0 +1,27 @@
+.background {
+  height: 100vh;
+  margin: 0; /* Menghapus margin bawaan */
+  padding: 0; /* Menghapus padding bawaan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, black 60%, white 50%);
+}
+
+.left-content {
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container-fluid {
+  height: 100%;
+}
